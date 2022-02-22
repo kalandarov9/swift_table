@@ -15,6 +15,8 @@
 		972B808327BC514200552659 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 972B808127BC514200552659 /* LaunchScreen.storyboard */; };
 		972B808E27BC514200552659 /* Days28_DZ_tableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972B808D27BC514200552659 /* Days28_DZ_tableTests.swift */; };
 		972B809927BC514200552659 /* Days28_DZ_tableUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972B809827BC514200552659 /* Days28_DZ_tableUITests.swift */; };
+		974AFB8527C4375D009E6AC8 /* MyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974AFB8427C4375D009E6AC8 /* MyTableViewController.swift */; };
+		974AFB8727C438CB009E6AC8 /*  CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974AFB8627C438CB009E6AC8 /*  CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		972B809427BC514200552659 /* Days28_DZ_tableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Days28_DZ_tableUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		972B809827BC514200552659 /* Days28_DZ_tableUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Days28_DZ_tableUITests.swift; sourceTree = "<group>"; };
 		972B809A27BC514200552659 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		974AFB8427C4375D009E6AC8 /* MyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MyTableViewController.swift; path = ../MyTableViewController.swift; sourceTree = "<group>"; };
+		974AFB8627C438CB009E6AC8 /*  CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " CardView.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				972B807627BC514000552659 /* AppDelegate.swift */,
 				972B807827BC514000552659 /* SceneDelegate.swift */,
 				972B807A27BC514000552659 /* ViewController.swift */,
+				974AFB8427C4375D009E6AC8 /* MyTableViewController.swift */,
+				974AFB8627C438CB009E6AC8 /*  CardView.swift */,
 				972B807C27BC514000552659 /* Main.storyboard */,
 				972B807F27BC514200552659 /* Assets.xcassets */,
 				972B808127BC514200552659 /* LaunchScreen.storyboard */,
@@ -261,7 +267,9 @@
 			files = (
 				972B807B27BC514000552659 /* ViewController.swift in Sources */,
 				972B807727BC514000552659 /* AppDelegate.swift in Sources */,
+				974AFB8727C438CB009E6AC8 /*  CardView.swift in Sources */,
 				972B807927BC514000552659 /* SceneDelegate.swift in Sources */,
+				974AFB8527C4375D009E6AC8 /* MyTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
